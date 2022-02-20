@@ -1,0 +1,17 @@
+name: security-exam
+version: 1.0.0
+api: 4.0.0
+main: Poggit\SecurityExam\Main
+src-namespace-prefix: Poggit\SecurityExam
+commands:
+  invite:
+    permission: securityexam.invite
+    usage: /invite <player full name>
+  checkpoint:
+    permission: securityexam.invite
+    usage: /checkpoint <name>
+permissions:
+  securityexam.invite:
+    default: true
+  securityexam.checkpoint:
+    default: true
